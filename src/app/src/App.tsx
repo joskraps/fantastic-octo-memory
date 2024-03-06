@@ -1,7 +1,6 @@
 import "./App.css";
 import Spotlight from "./features/spotlight/components/Spotlight";
 
-const totalPokemon = 1302;
 const totalPokemon = 1025;
 
 function App() {
