@@ -17,8 +17,6 @@ Modify the existing Spotlight component (Spotlight.tsx or SpotlightJS.jsx) to di
 
 Each pokemon should be displayed in a card with the id in the upper left corner, the image centered in middle, and the pokemon name centered on the bottom. The image can be fetched using [2] and the pokemon id.
 
-The cards should be displayed in a flex row with a gap in between each card.
-
 ### Requirements
 
 - Fetch five random pokemon using [1] and [4] above

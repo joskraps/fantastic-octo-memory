@@ -1,7 +1,9 @@
 import "./App.css";
+import SearchPokemon from "./features/search/components/SearchPokemon";
 import Spotlight from "./features/spotlight/components/Spotlight";
 
-const totalPokemon = 1025;
+// https://pokeapi.co/api/v2/pokemon
+const totalPokemon = 1302;
 
 function App() {
   return (
@@ -12,10 +14,7 @@ function App() {
             My Pokemon App
           </div>
           <Spotlight totalPokemon={totalPokemon} />
-          {/* The search and results will allow the user to seach for a pokemon and display not only the current search result but the previous search results as well (up to 20) */}
-          <div className="bg-slate-400 w-full min-h-[400px] mt-4">
-            <div>Search and results</div>
-          </div>
+          <SearchPokemon />
         </div>
       </div>
     </>
